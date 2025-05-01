@@ -1,12 +1,17 @@
 # Reddit AI Assistant 🤖
 
-**Heads Up! Important Disclaimer:**
+> [!DISCLAIMER]
+> This tool connects to official Reddit and Google APIs. Please use them responsibly and follow their respective Terms of Service.
+> **Be Aware:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and might get your account suspended. This tool is designed to *help you draft* comments. **Always manually review, significantly edit for value/originality, and post comments yourself.**
+> Let's keep Reddit useful! Focus on adding good insights and engaging constructively. Avoid spammy or low-effort comments.
 
-1.  This tool connects to official Reddit and Google APIs. Please use them responsibly and follow their respective Terms of Service.
-2.  **Be Aware:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and might get your account suspended. This tool is designed to *help you draft* comments. **Always manually review, significantly edit for value/originality, and post comments yourself.**
-3.  Let's keep Reddit useful! Focus on adding good insights and engaging constructively. Avoid spammy or low-effort comments.
-
----
+## Table of Contents
+* [Access the Notebook](#access-the-notebook-)
+* [Overview](#overview)
+* [Core Features](#core-features-)
+* [Getting Started: Setup Guide](#getting-started-setup-guide-)
+* [Execution Instructions](#execution-instructions-)
+* [How to Use the Workflow](#how-to-use-the-workflow-)
 
 ## Access the Notebook 🚀
 
@@ -14,15 +19,11 @@ You can find and run the notebook on Kaggle:
 
 * **[Kaggle: Reddit AI Assistant](https://www.kaggle.com/code/tharunreddy2911/reddit-ai-assistant)**
 
----
-
 ## Overview
 
 The Reddit AI Assistant is a Python tool built to help you find relevant discussions on Reddit and generate smart, context-aware comment suggestions using Google's Gemini Models. It runs in notebook environments (like Kaggle, Colab, or your local machine) and provides a user-friendly interface with Gradio.
 
 Think of it as your helper to streamline finding engagement opportunities and drafting thoughtful comments based on the post, ongoing discussion, and your own expertise.
-
----
 
 ## Core Features ✨
 
@@ -38,8 +39,6 @@ Think of it as your helper to streamline finding engagement opportunities and dr
 * **👀 Quick Context:** See the post's title, author, full text (or link URL for image/link posts), and the top 10 comments right in the UI.
 * **✏️ Editing Space:** A dedicated text box to refine AI suggestions or write your own comment before manually posting.
 * **🖱️ Interactive UI:** A clean Gradio interface with help text (tooltips) and loading indicators.
-
----
 
 ## Getting Started: Setup Guide 🛠️
 
@@ -83,9 +82,9 @@ You'll need API credentials for Reddit and Google Gemini.
         * The `python-dotenv` library (installed in Cell 1) allows loading secrets from a file.
         * Create a file named exactly `.env` in your project's root directory.
         * Add key-value pairs like: `GOOGLE_API_KEY="your_key"`
-        * **SUPER IMPORTANT:** If using Git, add `.env` to your `.gitignore` file! Don't commit secrets! The script (Cell 2) will automatically load variables from this file if it exists.
-
----
+        * The script (Cell 2) will automatically load variables from this file if it exists.
+        > [!IMPORTANT]
+        > If using Git, add `.env` to your `.gitignore` file! Don't commit secrets!
 
 ## Execution Instructions 🏃
 
@@ -95,8 +94,6 @@ You'll need API credentials for Reddit and Google Gemini.
     * **Verify Cell 2 & 3 Output:** Confirm that secrets loaded successfully and that the API clients initialized without errors. Check the printed output messages carefully.
 4.  **Launch UI:** Cell 6 will start the Gradio application and provide a URL. Access this URL in your web browser.
 5.  **Maintain Session:** The Gradio interface is only active while the notebook cell executing `iface.launch()` (Cell 6) remains running.
-
----
 
 ## How to Use the Workflow 📝
 
@@ -108,18 +105,4 @@ You'll need API credentials for Reddit and Google Gemini.
 6.  **Edit (Tab 2):** Use the "⬇️ Copy Suggestion..." button or manually copy text into the "Final Comment Editor". **Critically review and edit the text** to add your unique perspective, ensure accuracy, and match your voice.
 7.  **Post Manually:** Copy your final, polished comment from the editor. Go to the actual Reddit post/thread in your browser or app and submit it.
 
----
-
-## Required Libraries (Dependencies) 📦
-
-Installed in Cell 1:
-
-* `gradio`
-* `praw`
-* `google-generativeai`
-* `pandas`
-* `python-dotenv` (Used for local `.env` loading)
-
----
-
-Have fun being an awesome, insightful Redditor! 😄
+### Have fun being an awesome, insightful Redditor! 😄
