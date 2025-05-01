@@ -1,9 +1,9 @@
 # Reddit AI Assistant 🤖
 
-> [!DISCLAIMER]
-> This tool connects to official Reddit and Google APIs. Please use them responsibly and follow their respective Terms of Service.
-> **Be Aware:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and might get your account suspended. This tool is designed to *help you draft* comments. **Always manually review, significantly edit for value/originality, and post comments yourself.**
-> Let's keep Reddit useful! Focus on adding good insights and engaging constructively. Avoid spammy or low-effort comments.
+> [!WARNING]
+> **API Usage & Reddit Rules:** This tool connects to official Reddit and Google APIs. Please use them responsibly and adhere to their respective Terms of Service.
+> **Automation Risk:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and **may lead to account suspension.** This tool is intended to *assist in drafting* comments.
+> **Manual Review is Crucial:** **Always manually review, significantly edit for value and originality, and post comments yourself.** Focus on contributing genuine insights and engaging constructively. Avoid spam or low-effort content to maintain a healthy Reddit community.
 
 ## Table of Contents
 * [Access the Notebook](#access-the-notebook-)
