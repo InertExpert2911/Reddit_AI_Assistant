@@ -16,9 +16,9 @@
 
 ## Table of Contents 📑
 * [Access the Notebooks](#access-the-notebooks-)
-* [Overview](#overview)
+* [Overview](#overview-)
 * [Core Features](#core-features-)
-* [Getting Started: Setup Guide](#getting-started-:-setup-guide-)
+* [Detailed Setup Guide](#detailed-setup-guide-)
 * [Execution Instructions](#execution-instructions-)
 * [How to Use the Workflow](#how-to-use-the-workflow-)
 * [Possible Use Cases](#possible-use-cases-)
@@ -43,7 +43,7 @@ Think of it as your helper to streamline finding engagement opportunities and dr
 * **👀 Quick Context Display:** Easily view the post's title, author, full text/URL, and top comments within the interface.
 * **✅ Subreddit Validation & Recommendation:** Verify target subreddits exist and get suggestions for relevant communities based on keywords.
 
-## Getting Started: Setup Guide 🛠️
+## Detailed Setup Guide 🛠️
 
 You'll need API credentials for Reddit and Google Gemini.
 
