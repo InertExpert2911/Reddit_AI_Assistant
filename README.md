@@ -18,7 +18,7 @@
 * [Access the Notebooks](#access-the-notebooks-)
 * [Overview](#overview)
 * [Core Features](#core-features-)
-* [Getting Started: Setup Guide](#getting-started-setup-guide-)
+* [Getting Started: Setup Guide](#getting-started-:-setup-guide-)
 * [Execution Instructions](#execution-instructions-)
 * [How to Use the Workflow](#how-to-use-the-workflow-)
 * [Possible Use Cases](#possible-use-cases-)
@@ -37,18 +37,11 @@ Think of it as your helper to streamline finding engagement opportunities and dr
 
 ## Core Features ✨
 
-* **🎯 Smart Search:** Find Reddit posts using single or multiple keywords (with `AND`, `OR`, `NOT`, `"phrases"`), avoid posts with specified negative keywords, target specific subreddits, and apply filters (minimum upvotes, minimum comments, time period).
-* **✅ Subreddit Check:** Verifies if your target subreddits exist and are accessible, giving feedback (✅🚫↪️⚠️) and suggesting corrections for potential typos.
-* **💡 Subreddit Recommendation:** Suggests potentially relevant subreddits based on your input keywords.
-* **✍️ AI Suggestions:** Get comment ideas from Gemini, taking into account:
-    * The full post content (text for self-posts, URL for link/image posts).
-    * Context from the top 10 comments.
-    * Your specified area of expertise.
-    * Your chosen comment tone (Formal, Casual, Friendly, Informative, etc.).
-* **🗺️ Comment Placement Advice:** Get AI recommendations on whether to post as a new top-level comment or reply to a specific existing comment, including the reasoning.
-* **👀 Quick Context:** See the post's title, author, full text (or link URL for image/link posts), and the top 10 comments right in the UI.
-* **✏️ Editing Space:** A dedicated text box to refine AI suggestions or write your own comment before manually posting.
-* **🖱️ Interactive UI:** A clean Gradio interface with help text (tooltips) and loading indicators.
+* **🎯 Smart Search:** Find Reddit posts with advanced keyword/filter options (keywords, negative keywords, subreddits, upvotes, comments, time).
+* **✍️ AI Comment Suggestions:** Get AI-generated comment ideas based on post content, top comments, your expertise, and desired tone.
+* **🗺️ AI Comment Placement Advice:** Receive AI recommendations on whether to reply directly or post a new top-level comment, with justifications.
+* **👀 Quick Context Display:** Easily view the post's title, author, full text/URL, and top comments within the interface.
+* **✅ Subreddit Validation & Recommendation:** Verify target subreddits exist and get suggestions for relevant communities based on keywords.
 
 ## Getting Started: Setup Guide 🛠️
 
@@ -76,11 +69,11 @@ You'll need API credentials for Reddit and Google Gemini.
 
 **Never paste secrets directly into the code!** Use the method for your environment:
 
-* **Kaggle:** ([kaggle.com](https://www.kaggle.com/))
+* **[Kaggle](https://www.kaggle.com/):**
     * In your Kaggle notebook, use the **"Add-ons" > "Secrets"** menu.
     * Add secrets with these exact labels: `GOOGLE_API_KEY`, `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT`.
     * Ensure the notebook has access selected for these secrets.
-* **Google Colab:** ([colab.research.google.com](https://colab.research.google.com/))
+* **[Google Colab](https://colab.research.google.com/):**
     * Use the **"Secrets" tab** in the left sidebar.
     * Add secrets with the exact labels: `GOOGLE_API_KEY`, `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT`.
     * Ensure "Notebook access" is enabled for each secret.
