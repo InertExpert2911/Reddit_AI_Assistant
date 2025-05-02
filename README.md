@@ -5,12 +5,9 @@
 [![Made with Gradio](https://img.shields.io/badge/Made%20with-Gradio-orange)](https://www.gradio.app/)
 [![Uses PRAW](https://img.shields.io/badge/Uses-PRAW-cyan)](https://praw.readthedocs.io/en/stable/)
 [![Uses Gemini API](https://img.shields.io/badge/Uses-Gemini%20API-green)](https://ai.google.dev/)
-[![Uses Pandas](https://img.shields.io/badge/Uses-Pandas-blueviolet)](https://pandas.pydata.org/)
 [![Open In Kaggle](https://img.shields.io/badge/Open%20In-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/tharunreddy2911/reddit-ai-assistant)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16ahVmgEEH6UZDCoii827nrIoWBgBzXcb?usp=sharing)
 [![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?logo=jupyter)](https://jupyter.org/)
-
----
 
 ### Disclaimer
 * **API Usage & Reddit Rules:** This tool connects to official Reddit and Google APIs. Please use them responsibly and adhere to their respective Terms of Service.
@@ -133,5 +130,6 @@ This tool can be helpful for various individuals and teams:
 
 Contributions are welcome!
 
+----
 
 ### Have fun being an awesome, insightful Redditor! 😄
