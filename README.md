@@ -10,8 +10,8 @@
 [![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?logo=jupyter)](https://jupyter.org/)
 
 ### Disclaimer
-* **API Usage & Reddit Rules:** This tool connects to official Reddit and Google APIs. Please use them responsibly and adhere to their respective Terms of Service.
-* **Automation Risk:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and **may lead to account suspension.** This tool is intended to *assist in drafting* comments.
+* **API Usage & Reddit Rules:** This agent connects to official Reddit and Google APIs. Please use them responsibly and adhere to their respective Terms of Service.
+* **Automation Risk:** Using scripts to automatically post comments can violate Reddit's rules against bots/spam and **may lead to account suspension.** This agent is intended to *assist in drafting* comments.
 * **Manual Review is Crucial:** **Always manually review, significantly edit for value and originality, and post comments yourself.** Focus on contributing genuine insights and engaging constructively. Avoid spam or low-effort content to maintain a healthy Reddit community.
 
 ## Table of Contents 📑
@@ -31,7 +31,7 @@
 
 ## Overview 💡
 
-The Reddit AI Assistant is a Python tool built to help you find relevant discussions on Reddit and generate smart, context-aware comment suggestions using Google's Gemini Models. It runs in notebook environments (like Kaggle, Colab, or your local machine) and provides a user-friendly interface with Gradio.
+The Reddit AI Assistant is a Python agent built to help you find relevant discussions on Reddit and generate smart, context-aware comment suggestions using Google's Gemini Models. It runs in notebook environments (like Kaggle, Colab, or your local machine) and provides a user-friendly interface with Gradio.
 
 Think of it as your helper to streamline finding engagement opportunities and drafting thoughtful comments based on the post, ongoing discussion, and your own expertise.
 
@@ -63,7 +63,7 @@ You'll need API credentials for Reddit and Google Gemini.
 * Create the app and securely record:
     * **Client ID** (the short code under the app name).
     * **Client Secret** (the long code next to `secret`).
-* **Define a User Agent:** A unique string identifying your script, including your Reddit username (e.g., `MyRedditTool/1.0 by u/YourUsername`).
+* **Define a User Agent:** A unique string identifying your script, including your Reddit username (e.g., `MyRedditagent/1.0 by u/YourUsername`).
 
 **3. Securely Store Your Keys (Choose Your Method):**
 
@@ -107,7 +107,7 @@ You'll need API credentials for Reddit and Google Gemini.
 
 ## Possible Use Cases 🧭
 
-This tool can be helpful for various individuals and teams:
+This agent can be helpful for various individuals and teams:
 
 * **📈 Marketers & Brand Managers:** Monitor brand mentions, industry keywords, or competitor discussions. Find relevant conversations to engage with potential customers or address feedback (remembering to add genuine value, not just promote).
 * **🔍 Researchers & Analysts:** Quickly find discussions related to specific topics, products, or trends across various subreddits for market research or sentiment analysis.
